@@ -22,4 +22,15 @@ function getComputerChoice () {
     }
 }
 
+
 console.log(getComputerChoice());
+
+//function getHumanChoice 
+//ask for human to type rock, paper or scissors
+//return their choice
+function getHumanChoice () {
+    let humanChoice = prompt("Choose rock,paper or scissors");
+    return humanChoice;
+}
+
+console.log(getHumanChoice())
