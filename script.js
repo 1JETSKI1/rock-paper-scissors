@@ -22,7 +22,6 @@ function getComputerChoice () {
     }
 }
 
-
 console.log(getComputerChoice());
 
 //function getHumanChoice 
@@ -34,3 +33,6 @@ function getHumanChoice () {
 }
 
 console.log(getHumanChoice())
+
+let humanScore = 0
+let computerScore = 0
